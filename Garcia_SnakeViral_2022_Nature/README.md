@@ -14,8 +14,6 @@ El propósito de esta actividad es desarrollar un flujo de trabajo completo (den
 
 ### **Directorios**
 
-En  total hay 6 direcotorios:
-
 ### [analysis](analysis)
 
 * Directorio que contiene los análisis. 
