@@ -34,7 +34,7 @@ El propósito de esta actividad es desarrollar un flujo de trabajo completo (den
 * Datos usados en el análisis:
 
     *  [raw](data/raw/): se encuentran los datos crudos de con dos réplicas de SRR1984406.
-    * [processed](data/processed/): se trata de los datos procesados que hemos ido obteniendo con el desarrollo de los análisis. Una cosa importante es que en caso de repetir el estudio, este apartado cambiará ya que el script para de obtener las 5 secuencias fasta es arleatorio (pero en esencia es lo mismo a pesar de otras secuencias seleccionadas). En ese sentido, puede ser que los las secuencias de la memoria sean distintas a las que se encuentras en este directorio, dependiendo si se ha corrido de nuevo el secript.
+    * [processed](data/processed/): se trata de los datos procesados que hemos ido obteniendo con el desarrollo de los análisis. Una cosa importante es que en caso de repetir el estudio, este apartado cambiará ya que el script para de obtener las 5 secuencias fasta es arleatorio (pero en esencia es lo mismo a pesar de otras secuencias seleccionadas). En ese sentido, puede ser que las secuencias de la memoria sean distintas a las que se encuentran en este directorio, dependiendo si se ha corrido de nuevo el script.
 
 ### [submissions](submmissions)
 
