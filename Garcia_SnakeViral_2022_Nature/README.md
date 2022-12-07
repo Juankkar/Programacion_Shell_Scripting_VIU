@@ -35,6 +35,21 @@ El propósito de esta actividad es desarrollar un flujo de trabajo completo (den
 
     *  [raw](data/raw/): se encuentran los datos crudos de con dos réplicas de SRR1984406.
     * [processed](data/processed/): se trata de los datos procesados que hemos ido obteniendo con el desarrollo de los análisis. Una cosa importante es que en caso de repetir el estudio, este apartado cambiará ya que el script para de obtener las 5 secuencias fasta es arleatorio (pero en esencia es lo mismo a pesar de otras secuencias seleccionadas). En ese sentido, puede ser que las secuencias de la memoria sean distintas a las que se encuentran en este directorio, dependiendo si se ha corrido de nuevo el script.
+    
+En caso de que no se encuerntren las mismas secuencias de la memoria por esto anterior, se puede crear este script y sustituirlo por ```5randomseq.sh``` (lo he añadido en code como ```resultado_memoria.sh``, después de haber entregado la memoria, con lo que no figura, pero por motivos obvios me ha parecido bien hacer esta modificación).
+
+```
+#!/bin/bash
+ruta=../data/processed
+all_fasta=../data/processed/all_sequences.fasta
+
+grep ">SRR1984406.2835 2835 length=134" -A 1 $all_fasta > $ruta/secuencia1.fasta
+grep ">SRR1984406.5955 5955 length=134" -A 1 $all_fasta > $ruta/secuencia2.fasta
+grep ">SRR1984406.1377 1377 length=134" -A 1 $all_fasta > $ruta/secuencia3.fasta
+grep ">SRR1984406.2911 2911 length=135" -A 1 $all_fasta > $ruta/secuencia4.fasta
+grep ">SRR1984406.4139 4139 length=134" -A 1 $all_fasta > $ruta/secuencia5.fasta
+
+```
 
 ### [submissions](submmissions)
 

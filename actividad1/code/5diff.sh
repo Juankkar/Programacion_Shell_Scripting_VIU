@@ -10,8 +10,8 @@ read -p "Inserte la ruta de las diferencias: " diff
 ## EJECUCIÓN ##
 ## Ordenamos los datos crudos de menor a mayor, cromosomas (nº) y coordenadas.
 echo ">>> Ordenamos ambos datos y guardamos los resultados en un nuevo archivo"
-sort -k1.4 -k 2 -n $1 > $sort1
-sort -k1.4 -k 2 -n $2 > $sort2
+sort -k1.4 -V $1 > $sort1
+sort -k1.4 -V $2 > $sort2
 
 echo ">>> En caso de diferencias ¿Cuántas y que regiones son diferentes?"
 ## Primero preguntamos si difieren
