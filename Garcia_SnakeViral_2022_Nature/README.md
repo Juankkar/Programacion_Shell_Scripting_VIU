@@ -54,7 +54,7 @@ grep ">SRR1984406.4139 4139 length=134" -A 1 $all_fasta > $ruta/secuencia5.fasta
 ### [submissions](submmissions)
 
 * Donde guardamos la memoria de nuestro análisis  publicar.
-    * [version1](submission/version1/): guardamos el documento con los resultados en markdown.
+    * [version1](submission/version1/): guardamos el documento con los resultados en word.
     * [version2](submission/version2/): guardamos el documento con los resultados final, pasado a pdf.
 
 ### [tools](tools)
